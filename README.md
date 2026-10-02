@@ -44,7 +44,7 @@ skills, deliverables), and renders it.
 
 ## Cost / abuse protection
 
-This is the part that matters most for the teacher's concern:
+This is the part that matters most:
 
 ```
 Firebase Spark plan   (no billing account can be charged)

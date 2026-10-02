@@ -53,5 +53,6 @@ export const appCheck = initializeAppCheck(app, {
 // --- Firebase AI Logic (Gemini Developer API) -------------------------
 const ai = getAI(app, { backend: new GoogleAIBackend() });
 
-// gemini-2.5-flash: fast + cheap, good default for a first experiment.
-export const model = getGenerativeModel(ai, { model: "gemini-2.5-flash" });
+// gemini-3.8-flash: fast + low latency, ideal for zero-cost tier tasks.
+// Change "gemini-3.8-flash" to "gemini-3.5-flash-lite"
+export const model = getGenerativeModel(ai, { model: "gemini-3.5-flash-lite" });
